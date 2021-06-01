@@ -23,10 +23,14 @@ body
     }
 p
     {
-        color: blanchedalmond;
+        color: rgb(200, 245, 0);
     }
 image
     .grande
     {
-        tab-size: ;
+        image-resolution: 700PX;
     }
+header
+    {color: chartreuse;}
+ul
+{color: salmon;}
