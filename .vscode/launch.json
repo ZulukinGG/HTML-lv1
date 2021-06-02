@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open HTML_lv01.html",
+            "file": "c:\\Users\\fernando\\Desktop\\HTML_lv01\\HTML lv01\\HTML-lv1\\HTML_lv01.html"
+        }
+    ]
+}

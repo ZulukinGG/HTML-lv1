@@ -1,0 +1,118 @@
+main
+    {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+    line-height: 40px;
+    }
+
+p, h1
+    {
+    font-family: 'Press Start 2P', cursive;
+    }
+
+
+h1  
+
+    {
+    font-size: 30px;
+    ;background-color: rgb(125, 168, 134);}
+            .big
+            {
+            font-size: 60px;
+            color: rgb(156, 2, 2);
+            }
+
+body 
+    {
+    background-color: black;
+    margin: 0;
+    }
+
+body img
+    {
+   border-radius: 100px;
+   width: 200px;
+   border: 10px solid #e70e19;
+   align-content: center;
+    }
+
+p
+    {
+    color: rgb(200, 245, 0);
+    }
+            .texto 
+            {
+            font-family: sans-serif;
+            }
+
+    
+header
+    {
+    color: chartreuse; 
+    text-align: justify;
+    font-family: helvetica;
+    }
+            .esquerda 
+            {
+            text-align: left;
+            }
+            .direita 
+            {
+            text-align: right;
+            }
+            .centro 
+            {
+            text-align: center;
+            }
+
+ul
+    {
+    color: salmon;
+    padding: 0 20px;
+    }
+
+a
+    {
+    color: white;
+    }
+
+a:hover
+    {
+    color: purple;
+    background-color: white;
+    }
+footer
+    {
+    color: turquoise;
+    }
+
+footer a
+    {
+    color: white;
+    opacity: 0,5;
+    } 
+
+footer p
+    {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+div
+    {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: transparent;
+    }
+
+p.caption
+    {
+    font-style: italic;
+    }
+
+p.eusou
+    {
+    margin-top: 10px;
+    }
