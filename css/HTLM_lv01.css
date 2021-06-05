@@ -63,18 +63,9 @@ PS:
 .header img -> todas as imagens dentro do elemento cuja classe eh header
 
 */
-            .box
-            {
-            background-color: white;
-            padding: 5px;
-            border: 1px solid red;
-            }
+           
 
-            .beautiful
-            {
-            font-size: 48px;
-            font-weight: bolder;
-            }
+            
 
 
 
@@ -83,32 +74,34 @@ main
     {
     text-align: center;
     max-width: 700px;
-    margin: 0px 40px;
-    padding: 0 0;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px;
     line-height: 40px;
     }
 
-h1
+h2
     {
     font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    ;background-color: rgb(91, 59, 133);
     }
 
+                .box05
 
-h1  
+                {width: 400px;}
+                .big
+                {
+                font-size: 60px;
+                color: rgb(156, 2, 2);
+                }
+    
 
-    {
-    font-size: 30px;
-    ;background-color: rgb(125, 168, 134);}
-            .big
-            {
-            font-size: 60px;
-            color: rgb(156, 2, 2);
-            }
+
 
 body 
     {
     background-color: black;
-    margin: 0;
+    
     }
 
 body img
@@ -121,14 +114,26 @@ body img
 
 p
     {
-    color: rgb(200, 245, 0);
+    color:red;
     }
             .texto 
             {
-            font-family: sans-serif;
+            font-family: fantasy;
+            }
+            .beautiful
+            {
+            font-size: 48px;
+            font-weight: bolder;
+            font-style: oblique;
+            font-variant: normal;
+            font-stretch: wider;
             }
 
-    
+div.definidor
+
+{color: tomato;
+font-style: oblique;}
+
 header
     {
     color: chartreuse; 
@@ -146,12 +151,17 @@ header
             .centro 
             {
             text-align: center;
+            position: relative;
+            bottom: -20px;
             }
 
-ul
+ol
     {
     color: salmon;
-    padding: 0 20px;
+    padding: 0x 0px;
+    border: deeppink;
+    border: solid;
+    transform: translateX(30px);
     }
 
 a
@@ -164,7 +174,7 @@ a:hover
     color: purple;
     background-color: white;
     }
-footer
+footer p
     {
     color: turquoise;
     }
@@ -177,14 +187,16 @@ footer a
 
 footer p
     {
+        font-size: 30px;
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     }
-div
+p.beautiful
     {
     font-family: 'Tangerine', serif;
     text-shadow: 4px 4px 4px #aaa;
     color: transparent;
+    transform: translateY(-60px) translateX(-1px) scale(1.2);
     }
 
 p.caption
@@ -192,16 +204,50 @@ p.caption
     font-style: italic;
     }
 
+p.oculta
+
+{display: none;
+background-color: yellow;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: dashed;
+}
+
+div:hover p.oculta
+
+{display: block;}
+
+
 p.eusou
     {
     margin-top: 10px;
     }
 
-p.oculta
-    {
-    display:none;
-    background-color: yellow;
-    padding: 200px;
-    }
+.col
+{
+    border: 4px dashed rgba(4, 139, 22, 0.5);
+    padding: 10px;
+    background-color: rosybrown;
+    float: left;
+    margin-left: 20px;
+    width: 100px;
+    box-sizing: border-box;
+}
 
-p:hover p.oculta {display: block;}
+.col:first-child
+{
+    margin-left: 0;
+}
+
+
+.row
+{
+    width: 340px;
+    margin: 0 auto;
+}
+
+
+.row:after
+{content: "";
+display: table;
+clear: both;}
+
